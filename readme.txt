@@ -21,12 +21,25 @@ Application Bundling
     webpack-dev-server : 테스트를 위해 webpack에서 제공하는 개발서버
     loaders : css-loader, style-loader, sass-loader(include node-sass), babel-loader, etc ...
 
+    $ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader sass-loader sass
+    * mac 오류: node-sass -> sass
+
+    * 설치 확인
+    $ npx webpack --version
+
 7.  webpack 설정(webpack.config.js)
     1. entry 설정
     2. 최종 결과물인 번들링 파일의 이름 및 위치
     3. 다양한 로더 설정
     4. 개발 서버 설정
 
+8.  스크립팅(package.json)
+
+9. 애플리케이션 빌드(번들링)
+   $ npm run build
+
+10. 애플리케이션 실행(테스트 서버 실행)
+    $ npm start
 
 
 == 실습 예제 =====
