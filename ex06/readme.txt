@@ -7,6 +7,7 @@ $ npm init -y
 
 1. Install Packages
 $ npm i -D webpack webpack-cli webpack-dev-server css-loader style-loader sass-loader node-sass
+* mac은 node-sass 오류 -> sass 로 사용하기
 
 
 2. NPM Scripting
